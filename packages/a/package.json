@@ -1,0 +1,14 @@
+{
+	"name": "@mono/a",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "craco start",
+		"build": "craco build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"@mono/b": "workspace:^0.1.0"
+	}
+}
